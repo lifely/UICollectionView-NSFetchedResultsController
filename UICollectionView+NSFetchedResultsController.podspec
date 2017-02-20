@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name         = 'UICollectionView+NSFetchedResultsController'
-  s.version      = '1.2.1'
+  s.version      = '1.2.2'
   s.summary      = 'NSFRC category for UICV that collects the data source changes and executes them in proper order using batchUpdates.'
   s.homepage     = 'https://github.com/radianttap/UICollectionView-NSFetchedResultsController'
   s.license      = 'MIT'
-  s.author       = { 'Aleksandar Vacić' => 'radianttap.com' }
+  s.author       = { 'Aleksandar Vacić' => 'radianttap.com', 'Julien Di Marco' => 'https://github.com/lifely' }
   s.source       = { :git => "https://github.com/radianttap/UICollectionView-NSFetchedResultsController.git", :tag => "#{s.version}" }
   s.platform     = :ios, '7.0'
   s.source_files = 'UICollectionView+NSFetchedResultsController.{h,m}'
